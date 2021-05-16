@@ -1,0 +1,7 @@
+@mixin bordered($color, $radius: 10px) {
+  border: $color solid 1px;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: $radius;
+}
